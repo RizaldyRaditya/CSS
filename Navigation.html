@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navigation Tutorial</title>
+        <style media = "screen">
+ul.horizontal{
+    position : relative;
+    list-style-type:none;
+    padding : 0;
+    margin : 0;
+    overflow : hidden;
+    background-color : gold;
+    box-shadow: -1px -7px 20px 8px #888;
+}
+ul.horizontal li {float :right;}
+ul.horizontal li a{
+    display : block;
+    text-decoration: none;
+    color : white;
+    padding : 15px;
+    text-align : center;    
+}
+ul.horizontal li a:hover { background-color : lime;}
+ul.vertical{
+    position: relative;
+    list-style-type: none;
+    padding : 0;
+    margin : 0;
+    overflow: hidden;
+    background-color: grey;
+}
+ul.vertical li a{
+    display: block;
+    text-decoration: none;
+    color : gold;
+    padding : 15px;
+    text-align : right;
+}
+ul.vertical li a:hover { background-color :lightskyblue;}
+</style>
+    </head>
+    <body>
+        <div class = "menu">
+            <ul class =  "horizontal">
+            <li><a href="#">BERANDA</a></li>
+            <li><a href="#">PROFIL</a></li>
+            <li><a href="#">KONTAK</a></li>
+            <li><a href="#">LAYANAN</a></li>
+            </ul>
+        </div>
+        <nav>
+        <ul class = "vertical">
+            <li><a href="#">BERANDA</a></li>
+            <li><a href="#">PROFIL</a></li>
+            <li><a href="#">KONTAK</a></li>
+            <li><a href="#">LAYANAN</a></li>
+        </ul>
+       </nav>
+    </body>
+</html>

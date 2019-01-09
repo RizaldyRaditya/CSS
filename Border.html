@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border CSS</title>
+        <style media = "screen">
+            .btn-gold { padding : 10px; background : gold; color : silver;}
+            .btn-cyan { padding : 10px; background : cyan; color : deeppink;}
+            .btn-aqua { padding : 10px; background : greenyellow; color : deepskyblue;}
+            .solid{
+                border-style : solid; border-width: 4px; border-color: black;
+            }
+            .dotted{
+                border-style : dotted; border-width: 4px; border-color : black;
+            }
+            .double{
+                border-style : double; border-width : 4px; border-color : black;
+            }
+            .ridge{
+                border-style : ridge; border-width: 4px;
+            }
+            .inset{
+                border-style: inset; border-width: 4px;
+            }
+            .outset{
+                border-style: outset; border-width: 4px;
+            }
+            .round{
+                border-radius : 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>BORDER STYLE</legend>
+            <p class = "btn-gold solid"><b>SOLID</b></p>
+            <p class = "btn-cyan dotted"><b>DOTTED</b></p>
+            <p class = "btn-aqua ridge"><b>RIDGE</b></p>
+            <p class = "btn-gold double"><b>DOUBLE</b></p>
+            <p class = "btn-cyan inset"><b>INSET</b></p>
+            <p class = "btn-aqua outset"><b>OUTSET</b></p>
+        </fieldset>
+        <fieldset class = "round">
+            <legend>ROUND BORDER</legend>
+            <p class = "btn-gold solid round"><b>SOLID</b></p>
+            <p class = "btn-cyan dotted round"><b>DOTTED</b></p>
+            <p class = "btn-aqua ridge round"><b>RIDGE</b></p>
+            <p class = "btn-gold double round"><b>DOUBLE</b></p>
+            <p class = "btn-cyan inset round"><b>INSET</b></p>
+            <p class = "btn-aqua outset round"><b>OUTSET</b></p>
+        </fieldset>
+    </body>
+</html>

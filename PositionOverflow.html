@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position and Overflow</title>
+        <style media = "screen">
+            .container{
+                width : 50%;
+                height : 200px;
+                overflow : auto;
+                margin-left : 0 auto;
+            }
+            .static{ position: static; border : 2px solid lightskyblue;}
+            .relative{
+                position: relative;
+                border : 2px solid lightgray;
+                left : 20px;
+                bottom : 0;
+            }
+            .absolute{ position: absolute; border : 2px solid lightgreen; left : 20px; bottom : 40px;}
+            .fixed{ position: fixed; border : 2px solid lightcyan; bottom : 0; right : 0;}
+            .sticky{
+                position: sticky;
+                border : 2px solid red;
+                top : 0;
+                left : 20px;
+                background : gold;  
+                color : black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "container">
+            <p class = "sticky">Ini adalah contoh sticky</p>
+            <p class = "static">Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemograman.
+                    Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan bersama-sama dalam beberapa berkas (file).[1] Pada umumnya CSS dipakai untuk memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.[1]
+                    CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya.[1] CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen.[2] Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.[2]</p>
+            <p class = "relative">Sejarah CSS
+                    Nama CSS didapat dari fakta bahwa setiap deklarasi style yang berbeda dapat diletakkan secara berurutan, yang kemudian membentuk hubungan ayah-anak (parent-child) pada setiap style.[3] CSS sendiri merupakan sebuah teknologi internet yang direkomendasikan oleh World Wide Web Consortium atau W3C pada tahun 1996.[2] Setelah CSS distandardisasikan, Internet Explorer dan Netscape melepas browser terbaru mereka yang telah sesuai atau paling tidak hampir mendekati dengan standar CSS.[3] 
+                    Versi
+                    Untuk saat ini terdapat tiga versi CSS, yaitu CSS1, CSS2, dan CSS3. CSS1 dikembangkan berpusat pada pemformatan dokumen HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer, sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam desain website. CSS3 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada tabel /table layout dan media tipe untuk printer. Kehadiran versi CSS yang ketiga diharapkan lebih baik dari versi pertama dan kedua
+                    CSS3 juga dapat melakukan animasi pada halaman website, di antaranya animasi warna hingga animasi 3D. Dengan CSS3 desainer lebih dimudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS3 seperti: multiple background, border-radius, drop-shadow, border-image, CSS Math, dan CSS Object Model.[4]</p>
+            <p class = "absolute">Umur 15 tahun</p>
+            <p class = "fixed">Anak ke-1 dari 2 bersaudara</p>
+        </div>
+    </body>
+</html>
